@@ -12,9 +12,13 @@ Run it like this: `python3 nidformat.py /usr/local/vitasdk/share/db.yml nids.txt
 
 # vitadump.py
 
-**Note:** Before using this script, you *need* to have a file named `nids.txt` in the same folder. You can create it with [nidformat.py](#nidformatpy).
+**Note:** Before using this script, you *need* to have a file named `nids.txt`. You can create it with [nidformat.py](#nidformatpy).
 
 Just load your binary into IDA and run the script from IDA menu: `File -> Script file...`
+
+Requires:
+
+* IDAPython 7.4
 
 It will:
 
